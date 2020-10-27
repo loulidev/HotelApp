@@ -9,7 +9,7 @@ HotelApp
   * profile.html
   * register.html
 * Scripts
-  app.js
+  * app.js
 * Assets
   * CSS files
   * Images
