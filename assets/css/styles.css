@@ -1,0 +1,159 @@
+
+/* ------------------ GLOBAL ELEMENTS */
+
+@font-face {
+    font-family: 'RobotoR';
+    font-weight: 400;
+    src: url('assets/fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'RobotoL';
+    font-weight: 300;
+    src: url('assets/fonts/Roboto-Light.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    font-family: 'RobotoL', sans-serif;
+    font-weight: 300;
+}
+
+a,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    color: #a20d01;
+}
+button,
+input[type="button"] {
+    background: #f50;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #ca4502;
+    cursor: pointer;
+    padding: 15px 15px 15px 15px;
+    font-family: 'RobotoL';
+    text-transform: uppercase;
+    text-align: center;
+    width: auto;   
+}
+    button:hover,
+    input[type="button"]:hover {
+        background: #a20d01;
+    }
+    button a,
+    button a:hover,
+    button a:active,
+    button a:visited,
+    button a:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'RobotoR';
+}
+
+
+body > footer {
+    background: #ccc;
+    border-top: 3px solid #808080;
+
+}
+    body > footer p {
+        color: #616161;
+        text-align: center;
+    }
+
+body > header {
+    box-shadow: 0px 4px 1px 2px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    padding:5px 10px 10px 10px;
+}
+    body > header .main-logo {
+        color: #000;
+        margin: 0 150px;
+        padding: 12.5px 0;
+        display: inline;
+    }
+
+    body > header .primary-menu{
+        display: inline;
+        color:#000;
+        float: right;
+        margin: 0 10px;
+
+    }
+
+
+form input,
+form select {
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    padding: 10px 5px;
+    margin: 5px 0 15px 0;
+    background: #efefef;
+    width: 150px;
+
+
+}
+
+
+/* ------------------ HOMEPAGE */
+.container {
+    width: auto;
+    height: auto;
+    margin: 10px 120px 10px 100px;
+}
+
+section.hero {
+  background-image: url(../images/default.jpg);
+  background-size: 100%;
+  width:auto;
+  padding: 155px 0 300px 0;
+  margin-top:7px;
+
+}
+
+section.hero form {
+    background: #fff;
+    width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5px 0px 5px 0px;
+    border-radius:5px;
+
+}
+.action {
+	margin:0px 150px 0px 160px;
+}
+
+
+.types{ 
+    display: block;
+    float:left; 
+    padding: 0 20px 0px 50px;
+}
+
+
+.dates{
+    display: block;
+    float:left;
+    padding: 0 20px 0px 50px;
+}
