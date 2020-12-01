@@ -27,7 +27,7 @@ This is a website that aims to help hotels manage their reservations. It allows 
 * PHP
 * SQL
 
-To-do list:
+## To-do list:
 * Build User Profile page
 * Build Room Search page
 * Build Room Favorite page
